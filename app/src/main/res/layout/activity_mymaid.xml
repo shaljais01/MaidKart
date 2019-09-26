@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textStyle="bold|italic"
+        android:text="My Maids" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:textStyle="bold|italic"
+        android:layout_height="74dp"
+        android:text="Here you can manage the maids who are currently working for you.Add their details,save their documents, track their their salary,pay their salary,check their background information etc." />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View details of all maids" />
+
+    <Button
+        android:id="@+id/button_addmaids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add maids" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[6]" />
+
+</LinearLayout>

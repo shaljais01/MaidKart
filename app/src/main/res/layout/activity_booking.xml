@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:textStyle="bold|italic"
+        android:text="The cost for the full time maid is Rs17000 per month on an average however the price mat differe depending on the distance of the location. More enquiry about the maid can be done by clicking on the enquiry button." />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:textStyle="bold|italic"
+        android:text="The cost for the part time maid is Rs7000 per month on an average however the price mat differe depending on the distance of the location. More enquiry about the maid can be done by clicking on the enquiry button." />
+
+    <Button
+        android:id="@+id/button_enquire"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Enquire" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="153dp"
+        android:textStyle="bold|italic"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[4]" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="The enquiry done should be purely under the clause that if you book a particular employee for a particular task at a particular payment then help safety should be your matter of concern." />
+</LinearLayout>
